@@ -1,0 +1,63 @@
+кнопка принятия кук
+cookieButton = By.id("rcc-confirm-button")
+
+строки для нахождения вопросов и ответов в FAQ
+String questionsIdPrefix = "accordion__heading-"
+String answerIdPrefix = "accordion__panel-"
+
+кнопка Go! при поиске заказа
+goButton = By.cssSelector(".Header_Button__28dPO")
+
+поле номера заказа при поиске заказа
+orderField = By.className("Input_Input__1iN_Z")
+
+кнопка "Статус заказа"
+statusButton = By.className("Header_Link__1TAG7")
+
+верхняя кнопка "Заказать"
+orderButtonUp = By.xpath(".//div/div[1]/div[1]/div[2]/button[1]")
+
+нижня кнопка "Заказать"
+orderButtonDown = By.xpath(".//div/div[1]/div[4]/div[2]/div[5]/button")
+
+поле Имя в главной форме заказа
+Name = By.xpath(".//div/div[2]/div[2]/div[1]/input")
+
+поле Фамилия в главной форме заказа
+Surname = By.xpath(".//div/div[2]/div[2]/div[2]/input")
+
+поле Адрес в главной форме заказа
+Address = By.xpath(".//div/div[2]/div[2]/div[3]/input")
+
+поле Станция метро в главной форме заказа
+Metro = By.xpath(".//div/div[2]/div[2]/div[4]/div")
+
+поле Номер телефона в главной форме заказа
+PhoneNumber = By.xpath(".//div/div[2]/div[2]/div[5]/input")
+
+кнопка "Далее" в главной форме заказа
+NextButton = By.xpath(".//div/div[2]/div[3]/button")
+
+Строка для нахождения станции метро в выпадающем списке
+String MetroIdPrefix = ".//div/div[2]/div[2]/div[4]/div/div[2]/ul/li"
+
+поле "Когда привезти самокат"
+DateField = By.xpath(".//div/div[2]/div[2]/div[1]/div/div/input")
+
+строка для нахождения даты в выпадающем календаре
+String DatePrefix = "react-datepicker__day--"
+
+поле "Срок аренды"
+RentField = By.className("Dropdown-placeholder")
+
+строка "сутки" в выпадающем списке при нажатии поля "Срок аренды"
+AmountOfDays = By.xpath(".//div/div[2]/div[2]/div[2]/div[2]/div[1]")
+
+кнопка "Заказать" на второй форме заказа
+OrderButton = By.xpath(".//div/div[2]/div[3]/button[2]")
+
+кнопка "Да" для подтверждения заказа
+YesButton = By.xpath(".//div/div[2]/div[5]/div[2]/button[2]")
+
+текст "Заказа оформлен..." при успешном заказе
+OrderSuccess = By.xpath(".//div/div/div[2]/div[5]/div[1]")
